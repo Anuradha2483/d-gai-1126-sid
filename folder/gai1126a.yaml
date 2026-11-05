@@ -4,9 +4,9 @@ metadata:
   name: exeidfirst-pipeline
   annotations:
     scenarios.ai.sap.com/description: "4Nov1419 Descr to S AP AI Core Scenario"
-    scenarios.ai.sap.com/name: "GAI1126A Scenario name"
+    scenarios.ai.sap.com/name: "GAI1126ASID Scenario name"
     executables.ai.sap.com/description: "4Nov1419 Executable Descr"
-    executables.ai.sap.com/name: "GAI1126A AI Exec Name"
+    executables.ai.sap.com/name: "GAI1126ASID AI Exec Name"
   labels:
     scenarios.ai.sap.com/id: "ScenarioIDAISID"
     ai.sap.com/version: "1.0.0"
