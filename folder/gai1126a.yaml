@@ -8,7 +8,7 @@ metadata:
     executables.ai.sap.com/description: "4Nov1419 Executable Descr"
     executables.ai.sap.com/name: "GAI1126A AI Exec Name"
   labels:
-    scenarios.ai.sap.com/id: "ScenarioIDAI"
+    scenarios.ai.sap.com/id: "ScenarioIDAISID"
     ai.sap.com/version: "1.0.0"
 spec:
   entrypoint: mypipeline
