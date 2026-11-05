@@ -21,8 +21,8 @@ spec:
     container:
       image: docker.io/python:latest
       command:
-      - python3
-      - '-c'
+        - python3
+        - '-c'
       args:
-      - |
-      print("Hello from SAP AI Core")
+       - |
+        print("Hello from SAP AI Core")
