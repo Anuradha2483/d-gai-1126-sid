@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: WorkflowTemplate
 metadata:
-  name: ExeIDfirst-pipeline
+  name: exeidfirst-pipeline
   annotations:
     scenarios.ai.sap.com/description: "4Nov1419 Descr to S AP AI Core Scenario"
     scenarios.ai.sap.com/name: "GAI1126A Scenario name"
