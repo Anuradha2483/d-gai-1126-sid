@@ -16,7 +16,7 @@ metadata:
 
 spec:
   imagePullSecrets:
-    - name: faith-docker-t01
+    - name: gai1126-sid
 
   entrypoint: training-pipeline
 
