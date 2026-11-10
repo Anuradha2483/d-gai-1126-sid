@@ -2,21 +2,21 @@ apiVersion: argoproj.io/v1alpha1
 kind: WorkflowTemplate
 
 metadata:
-  name: faith-delivery-delay-train-s3-t01
+  name: sid-delivery-delay-train-s3-t01
   annotations:
-    scenarios.ai.sap.com/name: "FAITH Supplier Intelligence T01"
-    scenarios.ai.sap.com/description: "Supplier delivery delay prediction"
-    executables.ai.sap.com/name: "Delivery Delay S3 Training"
-    executables.ai.sap.com/description: "Train from CSV and publish model artifact"
+    scenarios.ai.sap.com/name: "sid Supplier Intelligence T01"
+    scenarios.ai.sap.com/description: "Sid Supplier delivery delay prediction"
+    executables.ai.sap.com/name: "Sid Delivery Delay S3 Training"
+    executables.ai.sap.com/description: "Sid Train from CSV and publish model artifact"
     artifacts.ai.sap.com/dataset.kind: "dataset"
     artifacts.ai.sap.com/model.kind: "model"
   labels:
-    scenarios.ai.sap.com/id: "faith-supplier-intelligence-t01"
+    scenarios.ai.sap.com/id: "sid-supplier-intelligence-t01"
     ai.sap.com/version: "1.1.2"
 
 spec:
   imagePullSecrets:
-    - name: faith-docker-t01
+    - name: gai1126-sid
 
   entrypoint: train-model
 
