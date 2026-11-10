@@ -4,7 +4,7 @@ kind: ServingTemplate
 metadata:
   name: sid-delivery-delay-serve-t01
   annotations:
-    scenarios.ai.sap.com/name: "SID Supplier Intelligence T01"
+    scenarios.ai.sap.com/name: "SID Serve Supplier Intelligence T01"
     scenarios.ai.sap.com/description: "Sid Supplier delivery delay prediction"
     executables.ai.sap.com/name: "sid-delivery-delay-prediction-api"
     executables.ai.sap.com/description: "Sid Serve the trained delivery delay model"
