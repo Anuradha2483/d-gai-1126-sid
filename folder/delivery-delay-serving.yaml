@@ -27,7 +27,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-          - name: faith-docker-t01
+          - name: gai1126-sid
 
         minReplicas: 1
         maxReplicas: 1
