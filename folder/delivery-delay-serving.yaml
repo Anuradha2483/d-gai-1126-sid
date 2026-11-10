@@ -2,15 +2,15 @@ apiVersion: ai.sap.com/v1alpha1
 kind: ServingTemplate
 
 metadata:
-  name: faith-delivery-delay-serve-t01
+  name: sid-delivery-delay-serve-t01
   annotations:
-    scenarios.ai.sap.com/name: "FAITH Supplier Intelligence T01"
-    scenarios.ai.sap.com/description: "Supplier delivery delay prediction"
-    executables.ai.sap.com/name: "delivery-delay-prediction-api"
-    executables.ai.sap.com/description: "Serve the trained delivery delay model"
+    scenarios.ai.sap.com/name: "SID Supplier Intelligence T01"
+    scenarios.ai.sap.com/description: "Sid Supplier delivery delay prediction"
+    executables.ai.sap.com/name: "sid-delivery-delay-prediction-api"
+    executables.ai.sap.com/description: "Sid Serve the trained delivery delay model"
   labels:
-    scenarios.ai.sap.com/id: "faith-supplier-intelligence-t01"
-    ai.sap.com/version: "1.1"
+    scenarios.ai.sap.com/id: "sid-supplier-intelligence-t01"
+    ai.sap.com/version: "1.2"
 
 spec:
   inputs:
